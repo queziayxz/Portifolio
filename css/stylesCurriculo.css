@@ -1,0 +1,147 @@
+h1 {
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+hr {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.dados-pessoais {
+    margin: 0 auto;
+    width: 460px;
+    display: flex;
+    text-align: center;
+}
+
+.dados-pessoais img {
+    margin: 10px 10px 10px 0;
+    width: 200px;
+    
+}
+
+.dados {
+    padding: 10px 0;
+    width: 100%;
+    line-height: 19px;
+    text-align: start;
+}
+
+.dados h3 {
+    font-size: .9rem;
+}
+
+.dados p {
+    font-size: .8rem;
+    margin-bottom: 10px;
+}
+
+.dados ul {
+    list-style: none;
+}
+
+.dados li {
+    font-size: .8rem;
+}
+
+.sobre-mim {
+    width: 460px;
+    margin: 10px auto;
+}
+
+.sobre-mim p {
+    font-size: .9rem;
+    text-align: unset;
+    text-indent: 2em;
+}
+
+.educacao, .habilidades, .ex-trabalho, .contato {
+    width: 460px;
+    margin: 10px auto;
+}
+
+.educacao h3, .habilidades h3, .ex-trabalho h3, .contato h3 {
+    font-size: .9rem;
+    line-height: 20px;
+}
+
+.educacao p, .habilidades p, .ex-trabalho p, .contato p {
+    margin-bottom: 10px;
+    font-size: .8rem;
+}
+
+.email, .tel {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.email img, .tel img {
+    width: 20px;
+}
+
+.email p, .tel p {
+    margin-bottom: 0;
+}
+
+.back {
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    border-radius: 5px;
+    color: #87797b;
+    background-color: #D5C6E0;
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .dados-pessoais {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .dados-pessoais img {
+        width: 250px;
+    }
+    
+    .dados h3 {
+        font-size: 1rem;
+        line-height: 30px;
+    }
+    
+    .dados p, .dados li {
+        font-size: .9rem;
+    }
+
+    .sobre-mim, .educacao, .habilidades, .ex-trabalho, .contato {
+        width: 98%;
+        padding: 0 10px;
+    }
+    
+    .sobre-mim p {
+        font-size: 1rem;
+        text-align: justify;
+        margin-right: 7px;
+    }
+
+    .educacao h3, .habilidades h3, .ex-trabalho h3, .contato h3 {
+        font-size: 1rem;
+    }
+
+    .educacao p, .habilidades p, .ex-trabalho p, .contato p {
+        font-size: .9rem;
+    }
+    
+}

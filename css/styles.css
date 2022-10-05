@@ -1,0 +1,43 @@
+.content {
+    display: block;
+}
+
+.img-profile {
+    width: 250px;
+    margin: 50px auto;
+}
+
+.img-profile img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.title-profile {
+    width: 100%;
+}
+
+.title-profile h1 {
+    width: 300px;
+    text-align: left;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.title-profile h2 {
+    color: #fff;
+    width: 296px;
+    font-size: .9rem;
+    font-weight: 100;
+    margin: 10px auto;
+}
+
+@media (min-width: 768px) {
+    .content {
+        margin: 70px auto;
+        width: 725px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
